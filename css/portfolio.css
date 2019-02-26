@@ -1,0 +1,274 @@
+/*    GENERAL    */
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Heebo Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #3aafa9;
+    width:100%;
+    height: 100%;
+    color: white;
+    position: relative;
+}
+
+.width {
+    width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*    LEFT TRIANGLE   */
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 600px solid transparent;
+    border-top: 600px solid #2b7a78;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.logo {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 40px;
+    width: 250px;
+}
+
+
+
+/*   NAVBAR   */
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100vw;
+    text-align: right;
+    padding: 30px 25px;
+    margin-top: -10px;
+}
+
+.navbar a {
+    padding-right: 25px;
+}
+
+/*   MAIN HEAD  */
+
+.main-head {
+    overflow: auto;
+}
+
+h2 {
+    color: #2b7a78;
+    letter-spacing: 10px;
+    margin-top: 250px;
+    margin-left: 600px;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: 40px;
+}
+
+
+
+/*    TOP SECTION    */
+
+.top-section {
+    padding: 20px 50px;
+    margin-top: 40px;
+}
+
+.profile-square {
+    background-color: #def2f1;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.me-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%); /*check this for browser support (webkit?)*/
+    display: inline-block;
+    z-index: 5;
+    position: absolute;
+    left: 450px;
+    top: 740px;
+}
+
+h3 + p {
+    text-transform: none;
+    text-align: left;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.about-me h3 {
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.about-me {
+    width: 600px;
+    float: left;
+    margin-left: 100px;
+}
+
+/*   MY WORK SECTION   */
+
+.my-work h3 {
+    background-color: #2b7a78;
+    display: inline-block;
+    padding: 30px 65px;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    margin-top: 300px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/*    BACKGROUND BOXES     */
+
+
+.dark-left {
+    background-color: #2b7a78;
+    height: 700px;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.clear {
+    width: 800px;
+    margin-left: 50px;
+    float: left;
+}
+
+.project-link {
+    position: absolute;
+    margin-top: 400px;
+}
+
+.light-right {
+    background-color: #def2f1;
+    width: 750px;
+    height: 600px;
+    margin-left: 850px;
+    margin-top: -850px;
+    margin-right: 50px;
+    z-index: -2;
+}
+
+.white-low {
+    background-color: white;
+    width: 620px;
+    height: 450px;
+    margin-left: 850px;
+    z-index: 2;
+    margin-top: -130px;
+}
+
+.color-block {
+    margin-top: -700px;
+}
+
+.image-container {
+    height: 600px;
+    width: 1000px;
+    z-index: 10;
+    filter: grayscale(100%); /*check this for browser support (webkit?)*/
+}
+
+
+.image1 {
+    height: 600px;
+    width: 540px;
+    float: left;
+    margin: 0px;
+}
+
+.image2 {
+    height: 300px;
+    float: left;
+}
+
+.image3 {
+    height: 300px;
+    float: left;
+}
+
+
+
+
+
+
+/*  CONTACT SECTION  */
+
+.contact-link {
+    position: absolute;
+    margin-top: 1000px;
+}
+
+
+.contact-section {
+    display: block;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+
+.contact-section h3 {
+    margin-bottom: 60px;
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.contact-section p {
+    text-transform: none;
+}
+
+.contact-section p + p {
+    color:  #2b7a78;
+}
+
+.get-in-touch {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.bottom-triangle {
+    width: 0;
+    height: 0;
+    border-left: 1000px solid transparent;
+    border-bottom: 600px solid #2b7a78;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    top: 2600px;
+}
