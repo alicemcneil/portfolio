@@ -9,23 +9,18 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     background-image: url("../images/teal.png");
-    /*width:100vw;*/
-
     color: white;
     position: relative;
+    overflow: auto;
     font-size: 62%;
-
 }
 
 .container {
     margin-right: auto; /* 1 */
     margin-left:  auto; /* 1 */
-
     max-width: 1200px; /* 2 */
-
     padding-right: 10px; /* 3 */
     padding-left:  10px; /* 3 */
-
 }
 
 a {
@@ -38,8 +33,6 @@ a:hover {
     color: #2b7a78;
     transition: 1s;
 }
-
-
 
 
 /*    LEFT TRIANGLE   */
@@ -83,7 +76,6 @@ a:hover {
     top: 30px;
     left: 40px;
     width: 250px;
-
 }
 
 
@@ -114,17 +106,13 @@ a:hover {
     overflow: auto;
 }
 
-
-
 h2 {
     color: #2b7a78;
     letter-spacing: 10px;
     margin-top: 300px;
     text-align: right;
     font-size: 2rem;
-
 }
-
 
 h1 {
     font-size:10rem;
@@ -134,26 +122,14 @@ h1 {
 }
 
 
-
 /*    TOP SECTION    */
-
-/*.top-section {*/
-    /*padding: 20px 60px;*/
-    /*margin-left: 10%;*/
-
-/*}*/
 
 .profile-pic {
     background-color: #def2f1;
     width: 200px;
     height: 200px;
     float: left;
-    /*margin-top: 40px;*/
-    /*margin-left: 200px;*/
     margin-right: 130px;
-    /*margin-left: 180px;*/
-    /*margin-bottom: 100px;*/
-
 }
 
 .me-pic {
@@ -174,8 +150,6 @@ h3 + p {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 1rem;
-    /*padding: 30px;*/
-
 }
 
 .about-me h3 {
@@ -193,9 +167,9 @@ h3 + p {
 /*   MY WORK SECTION   */
 
 .my-work {
-    margin-top: 300px;
     text-align: center;
 }
+
 
 .portfolio-title {
     background-color: #2b7a78;
@@ -206,70 +180,15 @@ h3 + p {
     margin-bottom: 0;
 }
 
-
 /*    BACKGROUND BOXES     */
-
-
-.project-link {
-    position: absolute;
-   margin-top: 150px;
-}
-
-/*.color-block {*/
-    /*height: 1500px;*/
-    /*margin-top: -700px;*/
-    /*!*padding-left: 3vw;*!*/
-    /*!*padding-right: 3vw;*!*/
-/*}*/
-
-/*.dark-left {*/
-    /*background-color: #2b7a78;*/
-    /*height: 700px;*/
-    /*width: 1000px;*/
-    /*margin-left: 50px;*/
-    /*margin-top: 100px;*/
-/*}*/
-
-/*.dark-left:after {*/
-    /*content: " ";*/
-    /*display: block;*/
-    /*padding-bottom: 100%;*/
-/*}*/
-
-
-/*.clear {*/
-    /*width: 800px;*/
-    /*margin-left: 50px;*/
-    /*float: left;*/
-/*}*/
-
-/*.light-right {*/
-    /*background-color: #def2f1;*/
-    /*width: 750px;*/
-    /*height: 600px;*/
-    /*margin-left: 850px;*/
-    /*margin-top: -850px;*/
-    /*margin-right: 50px;*/
-    /*z-index: -2;*/
-/*}*/
-
-/*.white-low {*/
-    /*background-color: white;*/
-    /*width: 620px;*/
-    /*height: 450px;*/
-    /*margin-left: 850px;*/
-    /*z-index: 2;*/
-    /*margin-top: -130px;*/
-/*}*/
 
 
 .image-container {
     height: 700px;
     z-index: 10;
     filter: grayscale(100%); /*check this for browser support (webkit?)*/
-    text-align: center;r
+    text-align: center;
 }
-
 
 .image1 {
     height: 100%;
@@ -278,13 +197,12 @@ h3 + p {
     padding: 10px;
 }
 
-.image2  {
+.image2 {
     height: 50%;
     width: 50%;
     float: left;
     padding: 10px;
 }
-
 
 .image1:hover {
     /*-webkit-transform: scale(1.3);*/
@@ -301,24 +219,16 @@ h3 + p {
 }
 
 
-
-
-
-
-
 /*  CONTACT SECTION  */
 
 .contact-link {
-    position: absolute;
-    margin-top: 1200px;
 
 }
-
 
 .contact-section {
     display: block;
     margin-top: 400px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -341,11 +251,13 @@ h3 + p {
     text-align: center;
     margin-bottom: 40px;
 }
+
 .email {
     font-size: 1rem;
     text-transform: none;
     color: #2b7a78;
 }
+
 .email:hover {
     background-color: #2b7a78;
     padding: 10px 20px;
@@ -371,38 +283,27 @@ h3 + p {
     border-radius: 8px;
 }
 
-.git {
+.github {
     margin-left: 0;
 }
-
-
 
 .bottom-triangle {
     width: 0;
     height: 0;
-    border-left: 900px solid transparent;
-    border-bottom: 500px solid #2b7a78;
+    border-left: 800px solid transparent;
+    border-bottom: 300px solid #2b7a78;
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 5;
-    top: 2600px;
+
 }
-
-
-
-
 
  /*     ------ MEDIA QUERIES ------- */
 
 @media only screen and (max-width: 1500px) {
-    p {
-        border: solid red 1px;
-    }
     .container {
         max-width: 1000px;
-    }
-    h2 {
     }
     h1 {
         font-size: 6rem;
@@ -419,15 +320,23 @@ h3 + p {
         width: 93%;
         font-size: 0.9rem;
     }
-
+    .my-work {
+        margin-top: 150px;
+    }
+    .social-media {
+        margin-bottom: 200px;
+    }
+    .bottom-triangle {
+        top: 2400px;
+    }
+    .project-link {
+        margin-top: -500px;
+    }
 }
 
 
 
 @media only screen and (max-width: 1300px) {
-    p {
-        border: solid blue 1px;
-    }
     .logo .square {
         position: fixed;
     }
@@ -455,20 +364,16 @@ h3 + p {
         width: 1000px;
     }
     .bottom-triangle {
-       top: 2500px;
-       border-left: 900px solid transparent;
-       border-bottom: 500px solid #2b7a78;
+       border-left: 800px solid transparent;
+       border-bottom: 400px solid #2b7a78;
+        top: 2200px;
     }
-    .contact-link {
-        margin-top: 250px;
+
 }
-}
+
 
 
 @media only screen and (max-width: 990px) {
-    p {
-        border: solid green 1px;
-    }
     h2 {
         margin-left: 00px;
     }
@@ -495,13 +400,14 @@ h3 + p {
     .image-container {
         height: 500px;
     }
-
+    .bottom-triangle {
+        top: 2000px;
+    }
 }
 
+
+
 @media only screen and (max-width: 768px) {
-    p {
-        border: solid orange 1px;
-    }
     .container {
         max-width: 1000px;
     }
@@ -516,9 +422,13 @@ h3 + p {
         letter-spacing: 20px;
         margin-left: 120px;
     }
+    .image-container {
+        margin: auto;
+    }
     .image1, .image2 {
         float: none;
         width: auto;
+        margin: 10px;
     }
     .triangle {
         margin-top: -60px;
@@ -538,23 +448,25 @@ h3 + p {
     }
     .contact-section {
         margin-top: 700px;
-    }
-    .project-link {
-        margin-top: 15px;
-    }
-    .bottom-triangle {
-        margin-top: 100px;
-    }
-    .contact-link {
         margin-bottom: 100px;
     }
-
+    .project-link {
+        margin-top: 2px;
+    }
+    .bottom-triangle {
+        width: 900px;
+        height: 300px;
+        background-color: #2b7a78;
+        top: 2630px;
+    }
+    .contact-link {
+        margin-bottom: 200px;
+    }
 }
 
+
+
 @media only screen and (max-width: 576px) {
-    p {
-        border: solid pink 1px;
-    }
     h1 {
         padding-left: 0;
         margin-left:10px;
@@ -598,17 +510,23 @@ h3 + p {
     }
     .bottom-triangle {
         border: none;
-        width: 1000px;
-        height: 500px;
+        width: 900px;
+        height: 800px;
         background-color: #2b7a78;
+        top: 2650px;
     }
-
 }
 
-@media only screen and (max-width: 450px) {
-    p {
-        border: solid purple 1px;
+
+@media  only screen and (max-width: 515px){
+    .bottom-triangle {
+        top: 2728px;
+        width:
     }
+}
+
+
+@media only screen and (max-width: 450px) {
     h1 {
         letter-spacing: 10px;
     }
@@ -622,9 +540,15 @@ h3 + p {
     .navbar {
         z-index: 50;
     }
+    .about-me p {
+        margin-bottom: 80px;
+    }
     .bottom-triangle {
-        margin-top: 240px;
+        margin-top: 60px;
         height: 400px;
+    }
+    .my-work {
+        margin-top: 10px;
     }
     .project-link {
         margin-top: -45px;
